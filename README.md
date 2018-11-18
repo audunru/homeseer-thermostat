@@ -1,6 +1,9 @@
 # homeseer-thermostat
 Turn heating devices on or off based on wanted temperature and current temperature
 
+## Installation
+Copy [Thermostat.vb](Thermostat.vb) to your Homeseer scripts folder.
+
 ## Setup in Homeseer
 
 After you've added the script to your scripts folder, set up a new event.
@@ -17,4 +20,4 @@ The parameters I use here are separated with | and ;
 
 I've set the script to not run again for at least 5 minutes to avoid heaters switching on/off rapidly.
 
-![alt text](https://raw.githubusercontent.com/audunru/homeseer-thermostat/master/event-setup.png)
+![alt text](event-setup.png)
